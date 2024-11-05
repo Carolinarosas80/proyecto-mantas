@@ -81,7 +81,8 @@ main h2 {
 
 }
 
-< !-- Secciones -->.section {
+< !-- Secciones -->
+.section {
     padding: 40px 20px;
     text-align: center;
     background-color: rgb(199, 197, 197);
@@ -225,11 +226,13 @@ p {
     list-style: none;
     justify-content: center;
     gap: 30px;
+    text-decoration: none;
 }
 
 .secciones-list li {
     display: flex;
     font-size: 1.2em;
+    text-decoration: none;
 }
 
 .productos-destacados {
@@ -284,7 +287,7 @@ p {
 
 
 
-body {
+.body {
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
@@ -303,9 +306,9 @@ body {
 .section h2 {
     background-color: #c4c4c4;
     padding: 10px;
-    text-decoration: none;
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .products {
@@ -321,7 +324,6 @@ body {
     border-radius: 8px;
     width: 200px;
     text-align: center;
-    text-decoration: none;
     padding: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -333,9 +335,9 @@ body {
 }
 
 .product p {
-    text-decoration: none;
     margin: 10px 0;
     font-weight: bold;
+    text-decoration: none;
 }
 
 button {
